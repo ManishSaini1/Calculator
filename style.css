@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(90deg,#30E8BF, #FF8235);
+}
+#container
+{
+    height: 78vh;
+    width: 40vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color:black;
+    border: 4px solid blue;
+    margin-left: 30vw;
+    
+}
+#input-field
+{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 10vh;
+    font-size: 4rem;
+    text-align: right;
+    
+}
+#input-field
+{
+    font-size: 3rem;
+}
+/* I S T   R O W   C A L C U L A T O R*/
+#ist-row button
+{
+    width: 24.7%;
+    height: 100%;
+    margin: 0;
+}
+#ist-row button span
+{
+        font-size: 1.5rem;
+}
+#ist-row
+{
+    width: 95%;
+    height: 9vh;
+    margin-left: 2.5%;
+    display: flex;
+     /* margin-top: 2%;  */
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.istrow
+{
+    font-size: 10rem;
+}
+.mahroon
+{
+    background-color: #c14444;
+    color: white;
+
+}
+.mg-top
+{
+
+    margin-top: 2%;
+}
+
+.white
+{
+    color: white;
+    
+}
+.header-font
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.center
+{
+    text-align: center;
+}

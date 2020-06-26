@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="heading"> <h1 class="white header-font center">Caclulator</h1>
+            <input type="text" id="input-field"  onkeypress="pressFunction(event)" onblur="this.focus" autofocus >
+        </div>
+        <div id="ist-row" class="mg-top">
+            <button class="ist-row" id="ac" onclick="ac()"><span>AC</span></button>
+            <button class="ist-row" id="add" onclick="addition()" value="+" ><span>+/-</span></button>
+            <button class="ist-row" id="mod" onclick="modulo()" value="%"><span>%</span></button>
+            <button class="ist-row  mahroon" id="div" onclick="divide()" value="/"><span>/</span></button>
+        </div>
+        <div id="ist-row" class="mgt-neg">
+            <button class="ist-row" id="7" value="7" onclick="seven()"><span>7</span></button>
+            <button class="ist-row" id="8" value="8" onclick="eight()"><span>8</span></button>
+            <button class="ist-row" id="9" value="9" onclick="nine()"><span>9</span></button>
+            <button class="ist-row  mahroon" id="multi" value="*" onclick="multiply()"><span>*</span></button>
+        </div>
+        <div id="ist-row">
+            <button class="ist-row" id="4"value="4" onclick="four()"><span>4</span></button>
+            <button class="ist-row" id="5" value="5" onclick="five()"><span>5</span></button>
+            <button class="ist-row" id="6" value="6" onclick="six()"><span>6</span></button>
+            <button class="ist-row  mahroon" id="sub" value="-"  onclick="subtract()"><span>-</span></button>
+        </div>
+        <div id="ist-row">
+            <button class="ist-row" id="1" onclick="one()" value="1"><span>1</span></button>
+            <button class="ist-row" id="2" onclick="two()" value="2"><span>2</span></button>
+            <button class="ist-row" id="3" onclick="three()" value="3"><span>3</span></button>
+            <button class="ist-row  mahroon" id="add" onclick="addition()" value="+"><span>+</span></button>
+        </div>
+        <div id="ist-row">
+            <button class="ist-row" id="0" value="0" onclick="zero()" style="flex-grow: 4; margin-right: .4%;"><span>0</span></button>
+            <button class="ist-row" id="dot" value="." onclick="dot()" style="margin-right: .4%;"><span>.</span></button>
+            
+            <button class="ist-row  mahroon" onclick="calculate()"><span>=</span></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
